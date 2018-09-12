@@ -1,0 +1,3 @@
+{ "_id" : "ac3", "name" : "AC3 Phone", "brand" : "ACME", "type" : "phone", "price" : 200, "warranty_years" : 1, "available" : true }
+{ "_id" : "ac7", "name" : "AC7 Phone", "brand" : "ACME", "type" : "phone", "price" : 320, "warranty_years" : 1, "available" : false }
+{ "_id" : { "$oid" : "507d95d5719dbef170f15bf9" }, "name" : "AC3 Series Charger", "type" : [ "accessory", "charger" ], "price" : 19, "warranty_years" : 0.25, "for" : [ "ac3", "ac7", "ac9" ] }
